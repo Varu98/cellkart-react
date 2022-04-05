@@ -6,11 +6,11 @@ import ProductCard from "../ProductCard/ProductCard";
 const Home = () => {
   return (
     <div className="home-wrapper">
-      <div class="category-img-container">
-        <img class="category-img" src="assets/trending.jpg" alt="" />
-        <img class="category-img" src="assets/bestsellers.jpg" alt="" />
-        <img class="category-img" src="assets/latest.jpg" alt="" />
-        <img class="category-img" src="assets/valentine's.jpg" alt="" />
+      <div className="category-img-container">
+        <img className="category-img" src="assets/trending.jpg" alt="" />
+        <img className="category-img" src="assets/bestsellers.jpg" alt="" />
+        <img className="category-img" src="assets/latest.jpg" alt="" />
+        <img className="category-img" src="assets/valentine's.jpg" alt="" />
       </div>
       {/* Banner Image */}
       <div className="banner-img">
