@@ -7,9 +7,9 @@ const Navbar = () => {
       <header>
         <navbar className="flex-row bg-d-blue text-white">
           <div className="navbar-list navbar-primary flex-row">
-            <a href="#" className="text-white">
+            <button className="text-white">
               <h1>Cell Kart 🛒</h1>
-            </a>
+            </button>
           </div>
           <div className="navbar-list navbar-social">
             <button className="hamburger-menu-btn">
@@ -17,27 +17,27 @@ const Navbar = () => {
             </button>
             <ul className="flex-row navbar-ul">
               <li>
-                <a href="#" className="navbar-link text-white">
+                <button className="navbar-link text-white">
                   Documentation
-                </a>
+                </button>
               </li>
               <li>
                 <span class="material-icons-filled">shopping_cart</span>
               </li>
               <li>
-                <a href="" className="fa-icon text-white">
+                <button href="" className="fa-icon text-white">
                   <i className="fab fa-twitter"></i>
-                </a>
+                </button>
               </li>
               <li>
-                <a href="" className="fa-icon text-white">
+                <button href="" className="fa-icon text-white">
                   <i className="fab fa-linkedin"></i>
-                </a>
+                </button>
               </li>
               <li>
-                <a href="" className="fa-icon text-white">
+                <button href="" className="fa-icon text-white">
                   <i className="far fa-moon"></i>
-                </a>
+                </button>
               </li>
             </ul>
           </div>
