@@ -1,6 +1,9 @@
 import "./App.css";
+import CartPage from "./frontend/components/CartPage/CartPage";
 import Home from "./frontend/components/Home/Home";
 import Navbar from "./frontend/components/Navbar/Navbar";
+import ProductPage from "./frontend/components/ProductPage/ProductPage";
+import WishListPage from "./frontend/components/WishListPage/WishListPage";
 
 function App() {
   return (
@@ -8,7 +11,10 @@ function App() {
       <Navbar />
 
       {/* mininavbar */}
-      <Home />
+      {/* <Home /> */}
+      {/* <ProductPage /> */}
+      {/* <CartPage /> */}
+      <WishListPage />
       {/* navbar */}
       {/* hero img with cta */}
       {/* separator div */}
